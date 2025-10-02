@@ -20,13 +20,17 @@ public class ColorPickFragment extends Fragment {
     private String[] colors;
     private GridLayout grid;
 
+    ColorViewModel colorsModel;
+
     private OnMessageSendListener mListener;
 
     private View.OnClickListener buttonListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             int buttonIndex = grid.indexOfChild(v);
+            String currentColllor = colors[buttonIndex];
 
+            colorsModel
         }
     };
 

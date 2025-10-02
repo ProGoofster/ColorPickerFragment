@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 
 public class ColorListFragment extends Fragment {
 
+    private ColorViewModel colorsModel;
+
     public ColorListFragment() {
         // Required empty public constructor
     }

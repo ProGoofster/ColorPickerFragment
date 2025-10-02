@@ -11,6 +11,7 @@ import android.os.Bundle;
 public class MainActivity extends AppCompatActivity implements OnMessageSendListener {
 
     FragmentManager fg;
+    ColorViewModel colorsModel;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
