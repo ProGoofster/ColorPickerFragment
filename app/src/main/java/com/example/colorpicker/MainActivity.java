@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements OnMessageSendList
         if (savedInstanceState == null) {
             fg = getSupportFragmentManager();
             FragmentTransaction trans = fg.beginTransaction();
+
             ColorPickFragment cg = new ColorPickFragment();
             trans.add(R.id.gridFragment, cg, "gridFrag");
 
